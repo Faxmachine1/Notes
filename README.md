@@ -4,7 +4,7 @@
 
 ## Usage/Examples
 
-> GET 127.0.0.1:8080/api/create?title=Моя заметка&body=Текст заметки
+> GET запрос: 127.0.0.1:8080/api/create?title=Моя заметка&body=Текст заметки
 ```json
 {
     "title": "Моя заметка",
@@ -14,7 +14,7 @@
 
 ```
 
-> GET 127.0.0.1:8080/api/read?key=ec0c8ada36eef6bde65faf00e88014f079393ecfbab320269a2dd67935327fb5
+> GET запрос: 127.0.0.1:8080/api/read?key=ec0c8ada36eef6bde65faf00e88014f079393ecfbab320269a2dd67935327fb5
 ```json
 {
     "title": "Моя заметка",
