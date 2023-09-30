@@ -4,7 +4,7 @@ use std::{fs::OpenOptions, io::{BufReader, BufRead}, io::Write};
 
 fn generate_sha256(data: &String) -> String {
     let mut context = digest::Context::new(&digest::SHA256);
-    context.update(&data.as_bytes());
+    context.update(data.as_bytes());
 
     hex::encode(context.finish())
 }
@@ -63,7 +63,7 @@ impl Note {
         None
     }
 
-    fn check_key(&self, key: &String) -> bool {
+    fn check_key(&self, key: &str) -> bool {
         key.eq_ignore_ascii_case(&self.key)
     }
 }
