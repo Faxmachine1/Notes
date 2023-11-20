@@ -1,6 +1,9 @@
 # Создание заметок и их чтение с помощью ключа через API
 
-Заметки построчно сохраняются в файл Notes.txt, в формате json
+
+<img src="https://github.com/Faxmachine1/Notes/assets/139303880/e014c8f7-d02c-4a43-805c-17130d17c813" alt="Заметки построчно сохраняются в файл Notes.txt, в формате json" width=400>
+
+<img src="https://github.com/Faxmachine1/Notes/assets/139303880/f877f56c-5d40-4656-82c5-ab967082432f" width=400>
 
 ## Usage/Examples
 
